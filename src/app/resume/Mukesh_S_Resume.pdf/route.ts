@@ -1,3 +1,5 @@
+export const dynamic = 'force-static';
+
 import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
 import { education, hackathonsAndEvents, certifications, projects, experiences, skillGroups } from "@/lib/portfolio";
 
@@ -20,8 +22,8 @@ function wrapText(text: string, maxChars: number) {
   return lines;
 }
 
-export async function GET(request: Request) {
-  const inline = new URL(request.url).searchParams.get("download") !== "1";
+export async function GET() {
+  const inline = false;
   const pdf = await PDFDocument.create();
   const page = pdf.addPage([612, 792]);
   const font = await pdf.embedFont(StandardFonts.Helvetica);
