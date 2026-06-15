@@ -27,10 +27,10 @@ export const techLogos: Record<string, TechLogoConfig> = {
 
 export function getTechLogoUrl(name: string): string | null {
   const localLogos: Record<string, string> = {
-    "Excel": "/logo/EXCEL.svg",
-    "CSS": "/logo/CSS.svg",
-    "Power BI": "/logo/POWER BI.svg",
-    "VS Code": "/logo/VS CODE.svg",
+    "Excel": "/portfolio/logo/EXCEL.svg",
+    "CSS": "/portfolio/logo/CSS.svg",
+    "Power BI": "/portfolio/logo/POWER BI.svg",
+    "VS Code": "/portfolio/logo/VS CODE.svg",
   };
 
   if (localLogos[name]) {

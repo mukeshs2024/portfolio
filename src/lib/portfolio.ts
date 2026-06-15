@@ -17,7 +17,7 @@ export const heroContent = {
     { label: "Hackathons", value: "2" },
     { label: "CGPA", value: "7.0" },
   ],
-  profileImage: "/profile/profile.jpg",
+  profileImage: "/portfolio/profile/profile.jpg",
   linkedin: "https://www.linkedin.com/in/mukesh-s-6a1a78333/",
 };
 
@@ -50,7 +50,7 @@ export const experiences = [
       "Team collaboration",
     ],
     tech: ["React", "Node.js", "Express", "MongoDB"],
-    certificateImage: "/certificates/mern_intern.jpg",
+    certificateImage: "/portfolio/certificates/mern_intern.jpg",
   },
 ];
 
@@ -65,7 +65,7 @@ export const projects = [
     githubHref: "https://github.com/mukeshs2024/ReUseMart-",
     demoHref: null,
     status: "Completed",
-    imageFolder: "/projects/reusemart/",
+    imageFolder: "/portfolio/projects/reusemart/",
   },
   {
     title: "ExportReady",
@@ -77,7 +77,7 @@ export const projects = [
     githubHref: "https://github.com/mukeshs2024/exportready",
     demoHref: null,
     status: "In Development",
-    imageFolder: "/projects/exportready/",
+    imageFolder: "/portfolio/projects/exportready/",
   },
   {
     title: "Indian Airline Traffic Forecasting",
@@ -89,7 +89,7 @@ export const projects = [
     githubHref: null,
     demoHref: null,
     status: "Completed",
-    imageFolder: "/projects/airline-forecasting/",
+    imageFolder: "/portfolio/projects/airline-forecasting/",
   },
 ];
 
@@ -116,12 +116,12 @@ export const certifications = [
   {
     title: "Gen AI Certification",
     issuer: "AI Workflows",
-    image: "/certificates/genai.png",
+    image: "/portfolio/certificates/genai.png",
   },
   {
     title: "MERN Stack Internship",
     issuer: "Full Stack Development",
-    image: "/certificates/mern_intern.jpg",
+    image: "/portfolio/certificates/mern_intern.jpg",
   },
 ];
 
@@ -130,15 +130,15 @@ export const hackathonsAndEvents = [
     title: "Generative AI Hackathon",
     description: "Built and presented an AI-based solution during a Generative AI hackathon.",
     images: [
-      "/images/Genai image.jpeg",
-      "/images/Geniai image2.jpg",
+      "/portfolio/images/Genai image.jpeg",
+      "/portfolio/images/Geniai image2.jpg",
     ],
   },
   {
     title: "AXIOS 25 Hackathon",
     description: "Participated in team-based problem solving and project presentation.",
     images: [
-      "/images/AXIOS.jpg",
+      "/portfolio/images/AXIOS.jpg",
     ],
   },
 ];
@@ -159,7 +159,7 @@ export const contactDetails = [
   { label: "Location", value: "Coimbatore, Tamil Nadu", href: "https://www.google.com/maps/search/Coimbatore,+Tamil+Nadu" },
 ];
 
-export const resumePath = "/resume/Mukesh_Resume.pdf";
+export const resumePath = "/portfolio/resume/Mukesh_Resume.pdf";
 export const footerLinks = [
   { label: "GitHub", href: "https://github.com/mukeshs2024" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/mukesh-s-6a1a78333/" },
