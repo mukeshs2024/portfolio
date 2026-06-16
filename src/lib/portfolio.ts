@@ -151,12 +151,12 @@ export const education = {
 };
 
 export const contactDetails = [
-  { label: "Email", value: "vprlks20@gmail.com", href: "mailto:vprlks20@gmail.com" },
-  { label: "Phone", value: "9003474487", href: "tel:+919003474487" },
-  { label: "LinkedIn", value: "Mukesh S", href: "https://www.linkedin.com/in/mukesh-s-6a1a78333/" },
-  { label: "GitHub", value: "mukeshs2024", href: "https://github.com/mukeshs2024" },
-  { label: "LeetCode", value: "mukeshs2024", href: "https://leetcode.com/u/mukeshs2024/" },
-  { label: "Location", value: "Coimbatore, Tamil Nadu", href: "https://www.google.com/maps/search/Coimbatore,+Tamil+Nadu" },
+  { label: "GitHub", value: "View Profile", href: "https://github.com/mukeshs2024" },
+  { label: "LinkedIn", value: "Connect", href: "https://www.linkedin.com/in/mukesh-s-6a1a78333/" },
+  { label: "LeetCode", value: "View Problems", href: "https://leetcode.com/u/mukesh_s20/" },
+  { label: "Email", value: "Contact Me", href: "mailto:vprlks20@gmail.com?subject=Portfolio Inquiry" },
+  { label: "Phone", value: "+91 90034 74487", href: "tel:+919003474487" },
+  { label: "Location", value: "View Map", href: "https://www.google.com/maps/search/Coimbatore,+Tamil+Nadu" },
 ];
 
 export const resumePath = "/portfolio/resume/Mukesh_Resume.pdf";
